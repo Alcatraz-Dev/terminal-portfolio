@@ -16,7 +16,7 @@ export default function BaseCmdInput({
       <div className="flex items-center">
         <div className="w-5 h-1 bg-slate-600"></div>
 
-        <div className="flex gap-2 items-center rounded-l-full bg-gradient-to-l from-gray-500 pl-8 pr-2 ">
+        <div className="flex gap-2 items-center rounded-l-full bg-gradient-to-l from-gray-500 pl-8 pr-2 z-40">
           <FaApple />
           <span> - </span> <GiOpenFolder />
         </div>
@@ -35,7 +35,7 @@ export default function BaseCmdInput({
             </div>
           </div>
           <div
-            className="-translate-x-5 w-5 h-5 border-l-2 border-lime-500 bg-lime-500 z-20"
+            className="-translate-x-5 w-5 h-5 border-l-2 border-lime-500 bg-lime-500 z-30"
             style={{
               clipPath: "polygon(0 0, 100% 50%, 0 100%)",
             }}
