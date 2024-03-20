@@ -31,7 +31,7 @@ export default function BaseCmdInput({
           <div className=" bg-lime-500 -translate-x-5">
             <div className="flex gap-1 items-center justify-center pl-8 pr-2">
               <FaRegFolderOpen className="text-black" />
-              <h1 className="text-black">Haythem Dhahri</h1>
+              <h1 className="text-black">Haythem</h1>
             </div>
           </div>
           <div
