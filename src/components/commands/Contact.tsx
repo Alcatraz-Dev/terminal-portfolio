@@ -5,12 +5,12 @@ export default function Contact() {
 		
 		{
 			text: "Linkedin",
-			value: "Contact me via Linkedin",
+			value: "Linkedin Contact",
 			href: "https://www.linkedin.com/in/haythem-dhahri-55762b253/",
 		},
 		{
 			text: "Email",
-			value: "Contact me via Email",
+			value: "Email Contact",
 			href: "mailto:alcatrazcontact@gmail.com",
 		},
 	];
