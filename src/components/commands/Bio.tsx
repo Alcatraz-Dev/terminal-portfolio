@@ -1,5 +1,5 @@
 import { GoVerified } from "react-icons/go";
-import { SiGithub, SiLinkedin, SiPatreon, SiYoutube } from "react-icons/si";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export default function Bio() {
   const links = [

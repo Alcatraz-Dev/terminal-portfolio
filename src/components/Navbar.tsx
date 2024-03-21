@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <IoTerminalOutline />
             <h1 className="flex justify-center text-center items-center text-sm">
-              Haythem_Dhahri
+              Haythem_Dhahri / Terminal
             </h1>
           </div>
         </div>
