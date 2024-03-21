@@ -2,11 +2,7 @@ import React from "react";
 
 export default function Contact() {
 	const contacts = [
-		{
-			text: "Github",
-			value: "Contact me via Github",
-			href: "https://github.com/Alcatraz-Dev",
-		},
+		
 		{
 			text: "Linkedin",
 			value: "Contact me via Linkedin",
