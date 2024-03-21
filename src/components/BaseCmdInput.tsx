@@ -16,12 +16,12 @@ export default function BaseCmdInput({
       <div className="flex items-center">
         <div className="w-5 h-1 bg-slate-600"></div>
 
-        <div className="flex gap-2 items-center rounded-l-full bg-gradient-to-l from-gray-500 pl-8 pr-2 z-40">
+        <div className="flex gap-1 items-center rounded-l-full bg-opacity-85 bg-gray-500 pl-4 pr-2 z-50 ">
           <FaApple />
           <span> - </span> <GiOpenFolder />
         </div>
         <div
-          className=" w-5 h-5 bg-gray-600 z-50"
+          className=" w-5 h-5 bg-gray-500 z-50"
           style={{
             clipPath: "polygon(0 0, 100% 50%, 0 100%)",
           }}
@@ -29,7 +29,7 @@ export default function BaseCmdInput({
 
         <div className="flex items-center">
           <div className=" bg-lime-500 -translate-x-5">
-            <div className="flex gap-1 items-center justify-center pl-8 pr-2">
+            <div className="flex gap-1 items-center justify-center pl-8 pr-2 z-30">
               <FaRegFolderOpen className="text-black" />
               <h1 className="text-black">Haythem</h1>
             </div>
@@ -42,10 +42,10 @@ export default function BaseCmdInput({
           ></div>
         </div>
 
-		<div className="flex items-center">
+        <div className="flex items-center">
           <div className=" bg-blue-500 -translate-x-10">
-            <div className="flex gap-1 items-center justify-center pl-8 pr-2">
-              <FaRegFolderOpen className="text-black" /> 
+            <div className="flex gap-1 items-center justify-center pl-8 pr-2 z-20">
+              <FaRegFolderOpen className="text-black" />
               <h1 className="text-black">/portfolio</h1>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function BaseCmdInput({
               clipPath: "polygon(0 0, 100% 50%, 0 100%)",
             }}
           ></div>
-		   <>{CmdStatus}</>
+          <>{CmdStatus}</>
         </div>
       </div>
       <div className="flex items-center">

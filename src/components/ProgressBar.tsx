@@ -20,10 +20,10 @@ export default function ProgressBar({
 		setAnimate(true);
 	}, []);
 	return (
-		<div className="w-11/12 mx-auto mt-5 mb-5">
+		<div className="w-11/12 mx-auto mt-5 mb-5 text-sm font-mono text-center items-center justify-center">
 			<div className={`${barWidth} flex justify-between mb-3`}>
-				<div className="flex gap-1 items-center">
-					<Icon className="text-3xl" />
+				<div className="flex gap-2 items-center">
+					<Icon className="text-2xl" />
 					<h1>{text}</h1>
 				</div>
 				<h1>{percentageValue}</h1>
