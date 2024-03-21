@@ -21,7 +21,7 @@ export default function BaseCmdInput({
           <span> - </span> <GiOpenFolder />
         </div>
         <div
-          className=" w-5 h-5 bg-gray-500 z-40"
+          className=" w-5 h-5 bg-gray-600 z-50"
           style={{
             clipPath: "polygon(0 0, 100% 50%, 0 100%)",
           }}
